@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-batea",
+  "version": "1.0.0",
+  "description": "Generates a bookmarklet from a JavaScript file",
+  "main": "src/bookmarklet.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "bookmarklet"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
