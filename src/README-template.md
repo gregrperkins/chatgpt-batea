@@ -8,6 +8,8 @@ To use the bookmarklet, simply drag the following link to your bookmarks bar (wh
 
 [ChatGPT Batea]({{ BookmarkletLink }})
 
+I like to use https://github.com/gildas-lormeau/SingleFile to save the results. Note that with this bookmarklet, you will need to refresh if you want to be able to continue the conversation.
+
 ## Building
 
 To build the bookmarklet, run the following command:
