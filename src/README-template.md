@@ -4,9 +4,9 @@ ChatGPT-Batea allows you to strip away all the extraneous stuff from your ChatGP
 
 ## Usage
 
-To use the bookmarklet, simply drag the following link to your bookmarks bar:
+To use the bookmarklet, simply drag the following link to your bookmarks bar (which won't appear as a link on `www.github.com` due to security concerns):
 
-[Bookmarklet]({{ BookmarkletLink }})
+[ChatGPT Batea]({{ BookmarkletLink }})
 
 ## Building
 

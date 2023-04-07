@@ -4,8 +4,10 @@
   "description": "Generates a bookmarklet from a JavaScript file",
   "main": "src/bookmarklet.js",
   "scripts": {
-    "build": "node scripts/build.js",
-    "build-readme": "node scripts/build.js -- --readme"
+    "build": "node scripts/build.js --all",
+    "build-bookmarklet": "node scripts/build.js --bookmarklet",
+    "build-readme": "node scripts/build.js --readme",
+    "build-page": "node scripts/build.js --page"
   },
   "keywords": [
     "bookmarklet",
@@ -15,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^8.1.0",
+    "marked": "^4.3.0",
     "mustache": "^4.2.0"
   }
 }
