@@ -4,12 +4,17 @@
   "description": "Generates a bookmarklet from a JavaScript file",
   "main": "src/bookmarklet.js",
   "scripts": {
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "build-readme": "node scripts/build.js -- --readme"
   },
   "keywords": [
     "bookmarklet",
     "chatgpt"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "mustache": "^4.2.0"
+  }
 }
