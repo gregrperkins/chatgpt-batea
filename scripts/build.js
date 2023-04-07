@@ -19,7 +19,7 @@ paths.srcFile = path.join(paths.srcDir, "bookmarklet.js");
 paths.distDir = path.join(paths.rootDir, "dist");
 paths.distFile = path.join(paths.distDir, "bookmarklet.min.js");
 paths.readmeSrcFile = path.join(paths.srcDir, "README-template.md");
-paths.readmeDistFile = path.join(paths.srcDir, "README.md");
+paths.readmeDistFile = path.join(paths.rootDir, "README.md");
 paths.indexDistFile = path.join(paths.rootDir, "index.html");
 
 const maybeWriteReadme = (bookmarkletCode) => {
